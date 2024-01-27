@@ -1,7 +1,13 @@
 package com.calibermc.naturescanvas.event;
 
 import com.calibermc.naturescanvas.NaturesCanvas;
+import com.calibermc.naturescanvas.worldgen.feature.tree.RedwoodTreeFeature;
+import com.calibermc.naturescanvas.worldgen.feature.tree.configs.EvergreenTreeConfiguration;
+import net.minecraft.world.level.levelgen.feature.Feature;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
 
 @Mod.EventBusSubscriber(modid = NaturesCanvas.MOD_ID)
 public class NCEventBus {
