@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "naturescanvas:orange_sandstone"
+    }
+  },
   "pattern": [
     "##",
     "##"
   ],
-  "key": {
-    "#": {
-      "item": "caliber:orange_sandstone"
-    }
-  },
   "result": {
-    "item": "caliber:cut_orange_sandstone",
-    "count": 4
-  }
+    "count": 4,
+    "item": "naturescanvas:cut_orange_sandstone"
+  },
+  "show_notification": true
 }

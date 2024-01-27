@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "naturescanvas:silver_nugget"
+    }
+  },
   "pattern": [
     "SSS",
     "SSS",
     "SSS"
   ],
-  "key": {
-    "S": {
-      "item": "caliber:silver_nugget"
-    }
-  },
   "result": {
-    "item": "caliber:silver_ingot"
-  }
+    "item": "naturescanvas:silver_ingot"
+  },
+  "show_notification": true
 }

@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "naturescanvas:gray_granite"
+    }
+  },
   "pattern": [
     "##",
     "##"
   ],
-  "key": {
-    "#": {
-      "item": "caliber:gray_granite"
-    }
-  },
   "result": {
-    "item": "caliber:polished_gray_granite",
-    "count": 4
-  }
+    "count": 4,
+    "item": "naturescanvas:polished_gray_granite"
+  },
+  "show_notification": true
 }

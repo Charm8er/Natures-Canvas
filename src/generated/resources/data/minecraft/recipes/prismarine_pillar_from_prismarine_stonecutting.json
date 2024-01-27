@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:prismarine"
-  },
-  "result": "caliber:prismarine_pillar",
-  "count": 5
-}

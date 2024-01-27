@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "naturescanvas:brown_granite"
+    }
+  },
   "pattern": [
     "##",
     "##"
   ],
-  "key": {
-    "#": {
-      "item": "caliber:brown_granite"
-    }
-  },
   "result": {
-    "item": "caliber:polished_brown_granite",
-    "count": 4
-  }
+    "count": 4,
+    "item": "naturescanvas:polished_brown_granite"
+  },
+  "show_notification": true
 }

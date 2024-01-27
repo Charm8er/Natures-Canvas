@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "caliber:mossy_spruce_planks"
-  },
-  "result": "caliber:mossy_spruce_window",
-  "count": 2
-}

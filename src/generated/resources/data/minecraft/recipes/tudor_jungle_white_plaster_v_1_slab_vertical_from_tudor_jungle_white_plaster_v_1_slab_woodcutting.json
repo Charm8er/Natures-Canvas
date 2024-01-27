@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "caliber:tudor_jungle_white_plaster_v_1_slab"
-  },
-  "result": "caliber:tudor_jungle_white_plaster_v_1_slab_vertical",
-  "count": 1
-}

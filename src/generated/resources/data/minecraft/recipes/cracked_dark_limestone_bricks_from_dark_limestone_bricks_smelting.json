@@ -1,9 +1,10 @@
 {
   "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "caliber:dark_limestone_bricks"
-  },
-  "result": "caliber:cracked_dark_limestone_bricks",
+  "category": "blocks",
+  "cookingtime": 200,
   "experience": 0.1,
-  "cookingtime": 200
+  "ingredient": {
+    "item": "naturescanvas:dark_limestone_bricks"
+  },
+  "result": "naturescanvas:cracked_dark_limestone_bricks"
 }

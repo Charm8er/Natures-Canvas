@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "caliber:tudor_birch_white_plaster_v_1"
-  },
-  "result": "caliber:tudor_birch_white_plaster_v_1_quarter_vertical",
-  "count": 5
-}

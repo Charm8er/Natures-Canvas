@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "naturescanvas:light_limestone"
+    }
+  },
   "pattern": [
     "#",
     "#"
   ],
-  "key": {
-    "#": {
-      "item": "caliber:light_limestone"
-    }
-  },
   "result": {
-    "item": "caliber:chiseled_light_limestone_bricks"
-  }
+    "item": "naturescanvas:chiseled_light_limestone_bricks"
+  },
+  "show_notification": true
 }

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:lime_terracotta"
-  },
-  "result": "caliber:lime_terracotta_arch",
-  "count": 2
-}

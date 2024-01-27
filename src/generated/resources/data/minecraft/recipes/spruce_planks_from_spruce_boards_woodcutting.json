@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "caliber:spruce_boards"
-  },
-  "result": "minecraft:spruce_planks",
-  "count": 1
-}

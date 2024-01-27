@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "naturescanvas:pink_granite"
+    }
+  },
   "pattern": [
     "##",
     "##"
   ],
-  "key": {
-    "#": {
-      "item": "caliber:pink_granite"
-    }
-  },
   "result": {
-    "item": "caliber:polished_pink_granite",
-    "count": 4
-  }
+    "count": 4,
+    "item": "naturescanvas:polished_pink_granite"
+  },
+  "show_notification": true
 }

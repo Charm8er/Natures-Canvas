@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "naturescanvas:brown_sandstone"
+    }
+  },
   "pattern": [
     "##",
     "##"
   ],
-  "key": {
-    "#": {
-      "item": "caliber:brown_sandstone"
-    }
-  },
   "result": {
-    "item": "caliber:cut_brown_sandstone",
-    "count": 4
-  }
+    "count": 4,
+    "item": "naturescanvas:cut_brown_sandstone"
+  },
+  "show_notification": true
 }

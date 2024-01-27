@@ -1,9 +1,10 @@
 {
   "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "caliber:raw_tin"
-  },
-  "result": "caliber:tin_ingot",
+  "category": "misc",
+  "cookingtime": 200,
   "experience": 1.0,
-  "cookingtime": 200
+  "ingredient": {
+    "item": "naturescanvas:raw_tin"
+  },
+  "result": "naturescanvas:tin_ingot"
 }

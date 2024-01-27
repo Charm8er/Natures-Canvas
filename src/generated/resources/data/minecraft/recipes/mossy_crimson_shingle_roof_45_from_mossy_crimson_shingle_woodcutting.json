@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "caliber:mossy_crimson_boards"
-  },
-  "result": "caliber:mossy_crimson_shingle_roof_45",
-  "count": 2
-}

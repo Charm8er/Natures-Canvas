@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/arch",
-  "textures": {
-    "side": "minecraft:block/brown_terracotta",
-    "top": "minecraft:block/brown_terracotta",
-    "bottom": "minecraft:block/brown_terracotta"
-  }
-}

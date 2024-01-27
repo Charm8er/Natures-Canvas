@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/inv/roof_67_top_inventory",
-  "textures": {
-    "side": "caliber:block/mossy_oak_boards",
-    "top": "caliber:block/mossy_oak_boards",
-    "bottom": "caliber:block/mossy_oak_boards"
-  }
-}

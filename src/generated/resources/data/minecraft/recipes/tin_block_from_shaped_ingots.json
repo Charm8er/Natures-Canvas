@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "T": {
+      "item": "naturescanvas:tin_ingot"
+    }
+  },
   "pattern": [
     "TTT",
     "TTT",
     "TTT"
   ],
-  "key": {
-    "T": {
-      "item": "caliber:tin_ingot"
-    }
-  },
   "result": {
-    "item": "caliber:tin_block"
-  }
+    "item": "naturescanvas:tin_block"
+  },
+  "show_notification": true
 }

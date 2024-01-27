@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": {
+      "item": "naturescanvas:silver_ingot"
+    }
+  },
   "pattern": [
     "SSS",
     "SSS",
     "SSS"
   ],
-  "key": {
-    "S": {
-      "item": "caliber:silver_ingot"
-    }
-  },
   "result": {
-    "item": "caliber:silver_block"
-  }
+    "item": "naturescanvas:silver_block"
+  },
+  "show_notification": true
 }

@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/balustrade_connected",
-  "textures": {
-    "side": "caliber:block/mossy_oak_planks",
-    "top": "caliber:block/mossy_oak_planks",
-    "bottom": "caliber:block/mossy_oak_planks"
-  }
-}
