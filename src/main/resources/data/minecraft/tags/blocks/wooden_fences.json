@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "caliber:stained_oak_fence",
-    "caliber:stained_acacia_fence",
-    "caliber:stained_dark_oak_fence",
-    "caliber:stained_spruce_fence",
-    "caliber:stained_birch_fence",
-    "caliber:stained_jungle_fence"
+    "naturescanvas:stained_oak_fence",
+    "naturescanvas:stained_acacia_fence",
+    "naturescanvas:stained_dark_oak_fence",
+    "naturescanvas:stained_spruce_fence",
+    "naturescanvas:stained_birch_fence",
+    "naturescanvas:stained_jungle_fence"
   ]
 }

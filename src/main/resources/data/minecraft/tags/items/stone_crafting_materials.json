@@ -1,13 +1,13 @@
 {
   "replace": false,
   "values": [
-    "caliber:dark_limestone",
-    "caliber:light_limestone",
-    "caliber:pink_limestone",
-    "caliber:tan_limestone",
-    "caliber:cobbled_dark_limestone",
-    "caliber:cobbled_light_limestone",
-    "caliber:cobbled_pink_limestone",
-    "caliber:cobbled_tan_limestone"
+    "naturescanvas:dark_limestone",
+    "naturescanvas:light_limestone",
+    "naturescanvas:pink_limestone",
+    "naturescanvas:tan_limestone",
+    "naturescanvas:cobbled_dark_limestone",
+    "naturescanvas:cobbled_light_limestone",
+    "naturescanvas:cobbled_pink_limestone",
+    "naturescanvas:cobbled_tan_limestone"
   ]
 }

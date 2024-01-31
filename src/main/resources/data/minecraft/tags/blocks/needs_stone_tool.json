@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "caliber:deepslate_arch",
+    "naturescanvas:deepslate_arch",
     "caliber:deepslate_arch_half",
     "caliber:deepslate_arch_large",
     "caliber:deepslate_arch_large_half",

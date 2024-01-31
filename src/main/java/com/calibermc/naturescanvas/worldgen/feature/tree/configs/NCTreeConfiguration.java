@@ -1,29 +1,34 @@
 package com.calibermc.naturescanvas.worldgen.feature.tree.configs;
 
+import com.calibermc.naturescanvas.block.NCBlocks;
 import com.google.common.collect.Lists;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
+import net.minecraft.util.valueproviders.ConstantInt;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
 import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
+import net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator;
+import net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer;
 
 import java.util.List;
+import java.util.Optional;
 
 public class NCTreeConfiguration extends TreeConfiguration
 {
     public static final Codec<NCTreeConfiguration> CODEC = RecordCodecBuilder.create((builder) -> {
         return builder.group(
-            BlockStateProvider.CODEC.fieldOf("trunk_provider").forGetter((instance) -> instance.trunkProvider),
-            BlockStateProvider.CODEC.fieldOf("foliage_provider").forGetter((instance) -> instance.foliageProvider),
-            BlockStateProvider.CODEC.fieldOf("vine_provider").forGetter((instance) -> instance.vineProvider),
-            BlockStateProvider.CODEC.fieldOf("hanging_provider").forGetter((instance) -> instance.hangingProvider),
-            BlockStateProvider.CODEC.fieldOf("trunk_fruit_provider").forGetter((instance) -> instance.trunkFruitProvider),
-            BlockStateProvider.CODEC.fieldOf("alt_foliage_provider").forGetter((instance) -> instance.altFoliageProvider),
-            Codec.INT.fieldOf("min_height").forGetter((instance) -> instance.minHeight),
-            Codec.INT.fieldOf("max_height").forGetter((instance) -> instance.maxHeight),
-            TreeDecorator.CODEC.listOf().fieldOf("decorators").forGetter(instance -> instance.decorators)
+                BlockStateProvider.CODEC.fieldOf("trunk_provider").forGetter((instance) -> instance.trunkProvider),
+                BlockStateProvider.CODEC.fieldOf("foliage_provider").forGetter((instance) -> instance.foliageProvider),
+                BlockStateProvider.CODEC.fieldOf("vine_provider").forGetter((instance) -> instance.vineProvider),
+                BlockStateProvider.CODEC.fieldOf("hanging_provider").forGetter((instance) -> instance.hangingProvider),
+                BlockStateProvider.CODEC.fieldOf("trunk_fruit_provider").forGetter((instance) -> instance.trunkFruitProvider),
+                BlockStateProvider.CODEC.fieldOf("alt_foliage_provider").forGetter((instance) -> instance.altFoliageProvider),
+                Codec.INT.fieldOf("min_height").forGetter((instance) -> instance.minHeight),
+                Codec.INT.fieldOf("max_height").forGetter((instance) -> instance.maxHeight),
+                TreeDecorator.CODEC.listOf().fieldOf("decorators").forGetter(instance -> instance.decorators)
         ).apply(builder, NCTreeConfiguration::new);
     });
 
@@ -36,7 +41,11 @@ public class NCTreeConfiguration extends TreeConfiguration
 
     protected NCTreeConfiguration(BlockStateProvider trunkProvider, BlockStateProvider foliageProvider, BlockStateProvider vineProvider, BlockStateProvider hangingProvider, BlockStateProvider trunkFruitProvider, BlockStateProvider altFoliageProvider, int minHeight, int maxHeight, List<TreeDecorator> decorators)
     {
-        super(trunkProvider, null, foliageProvider, null, null, null, new TwoLayersFeatureSize(1, 0, 1), decorators, false, false);
+        super(trunkProvider, new StraightTrunkPlacer(
+                        //pBaseHeight, pHeightRandA, pHeightRandB
+                        minHeight, maxHeight, 1), foliageProvider,
+                new BlobFoliagePlacer(ConstantInt.of(//pRadius
+                        2), ConstantInt.of(0), 3), Optional.empty(), BlockStateProvider.simple(Blocks.DIRT), new TwoLayersFeatureSize(1, 0, 1), decorators, true, false);
 
         this.vineProvider = vineProvider;
         this.hangingProvider = hangingProvider;

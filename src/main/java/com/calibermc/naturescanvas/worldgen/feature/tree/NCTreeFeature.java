@@ -114,7 +114,7 @@ public abstract class NCTreeFeature<FC extends NCTreeConfiguration> extends Tree
     {
         return TreeFeature.isAirOrLeaves(level, pos) || level.isStateAtPosition(pos, (state) -> {
             Block block = state.getBlock();
-            return state.is(BlockTags.REPLACEABLE_BY_TREES) || state.is(BlockTags.SAPLINGS) || block == Blocks.VINE || /* || block == Blocks.MOSS_CARPET || block == BOPBlocks.SPANISH_MOSS || */block instanceof BushBlock;
+            return state.is(BlockTags.REPLACEABLE_BY_TREES) || state.is(BlockTags.SAPLINGS) || block == Blocks.VINE || block == Blocks.MOSS_CARPET || block instanceof BushBlock;
         });
     }
 

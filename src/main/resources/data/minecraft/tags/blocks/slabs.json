@@ -1,22 +1,22 @@
 {
   "replace": false,
   "values": [
-    "caliber:andesite_slab",
-    "caliber:polished_andesite_slab",
+    "naturescanvas:andesite_slab",
+    "naturescanvas:polished_andesite_slab",
 
-    "caliber:basalt_slab",
-    "caliber:polished_basalt_slab",
-    "caliber:smooth_basalt_slab",
+    "naturescanvas:basalt_slab",
+    "naturescanvas:polished_basalt_slab",
+    "naturescanvas:smooth_basalt_slab",
 
-    "caliber:blackstone_slab",
-    "caliber:gilded_blackstone_slab",
-    "caliber:polished_blackstone_slab",
-    "caliber:polished_blackstone_brick_slab",
+    "naturescanvas:blackstone_slab",
+    "naturescanvas:gilded_blackstone_slab",
+    "naturescanvas:polished_blackstone_slab",
+    "naturescanvas:polished_blackstone_brick_slab",
 
-    "caliber:diorite_slab",
-    "caliber:polished_diorite_slab",
+    "naturescanvas:diorite_slab",
+    "naturescanvas:polished_diorite_slab",
 
-    "caliber:deepslate_slab",
+    "naturescanvas:deepslate_slab",
     "caliber:deepslate_brick_slab",
     "caliber:deepslate_tile_slab",
     "caliber:cobbled_deepslate_slab",

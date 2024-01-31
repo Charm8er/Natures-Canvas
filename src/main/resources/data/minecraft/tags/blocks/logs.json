@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "naturescanvas:redwood_log",
+    "naturescanvas:redwood_wood",
+    "naturescanvas:stripped_redwood_log",
+    "naturescanvas:stripped_redwood_wood"
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "caliber:black_sand",
-    "caliber:brown_sand",
-    "caliber:orange_sand",
-    "caliber:white_sand"
+    "naturescanvas:black_sand",
+    "naturescanvas:brown_sand",
+    "naturescanvas:orange_sand",
+    "naturescanvas:white_sand"
   ]
 }
